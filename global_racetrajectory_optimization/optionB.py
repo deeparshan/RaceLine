@@ -16,9 +16,10 @@ def optionB():
     if (option1 == 'y'):
         while not (completeEdit):
             print("EDIT CAR 1")
+            print("CAR1 CONFIGURATION:\n")
             if (parseOptions()):
             	try:
-            		option = input('Do you want to edit some more? (y/n): ')
+            		option = input('Do you want to edit CAR 1 some more? (y/n): ')
             		if (option == 'y' or option == 'n'):
             			pass
             	except:
@@ -28,10 +29,11 @@ def optionB():
         
         completeEdit = False
         while not (completeEdit):
-            print("EDIT CAR 2")
+            print("EDIT CAR 1")
+            print("CAR1 CONFIGURATION:\n")
             if (parseOptions()):
             	try:
-            		option = input('Do you want to edit some more? (y/n): ')
+            		option = input('Do you want to edit CAR 2 some more? (y/n): ')
             		if (option == 'y' or option == 'n'):
             			pass
             	except:

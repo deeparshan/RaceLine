@@ -9,6 +9,7 @@ def optionA():
     completeEdit = False
     while not (completeEdit):
         print("EDIT CAR 1")
+        print("CAR1 CONFIGURATION:\n")
         if (parseOptions()):
         	try:
         		option = input('Do you want to edit some more? (y/n): ')

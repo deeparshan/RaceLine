@@ -1,5 +1,7 @@
-import subprocess
 import sys
+from optionA import *
+from optionB import *
+from optionC import *
 
 menu_options = {
 	1: 'Run a Custom Car',
@@ -13,16 +15,14 @@ def print_menu():
 		print(key, '--', menu_options[key])
 		
 def option1():
-    print('P1')
-    subprocess.call("python3 ./optionA.py", shell=True)
+    optionA()
 	
 def option2():
-	subprocess.call("python3 ./parseOptions.py", shell=True)
+	optionB()
 	
 def option3():
-	print('OP3')
-	subprocess.call("python3 ./optionC.py", shell=True)
-	
+	optionC()
+    
 def option4():
     sys.exit("Thank you for using my application")
     

@@ -4,5 +4,6 @@ import helper_funcs_glob.src.check_traj
 import helper_funcs_glob.src.export_traj_race
 import helper_funcs_glob.src.export_traj_ltpl
 import helper_funcs_glob.src.import_track
+import helper_funcs_glob.src.result_plots_compare
 import helper_funcs_glob.src.result_plots
 import helper_funcs_glob.src.prep_track
